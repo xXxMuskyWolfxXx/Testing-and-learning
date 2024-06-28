@@ -148,7 +148,7 @@ git push
 #	3:
 git checkout -b side o/main
 git commit
-git commit --rebase
+git pull --rebase
 git push
 #	4:
 git push origin main
